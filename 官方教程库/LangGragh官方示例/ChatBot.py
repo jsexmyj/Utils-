@@ -17,7 +17,7 @@ graph_builder = StateGraph(State)
 # 配置大模型
 llm = init_chat_model(
     "deepseek-ai/DeepSeek-V3",     # <model_provider>:<model_name>
-    api_key="sk-mhocjqxyybibjvptsyzaltehjtahibswkgdefndaumuljrrk",  # 或者依赖环境变量 DEEPSEEK_API_KEY
+    api_key="",  # 或者依赖环境变量 DEEPSEEK_API_KEY
     api_base="https://api.siliconflow.cn/v1"
 )
 tools = [echo_tool]
